@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Барбершоп "Бородинский"</title>
 </head>
 <body>
@@ -22,16 +23,63 @@
             </ul>
             <ul class="navigation-list navigation-user">
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Поиск</a>
+                    <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Корзина</a>
+                    <a class="navigation-link" href="#"><span class="visually-hidden">Корзина</span></a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">Вход</a>
+                    <a class="navigation-link" href="#"><span class="visually-hidden">Вход</span></a>
                 </li>
             </ul>
         </nav>
     </head>
+    <main class="main-index">
+        <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+        <img class="logo" src="/img/logo-full-dark.png" alt="logo">
+        <section class="advantages">
+            <h2 class="visually-hidden">Преимущества</h2>  
+            <ul class="advantages-list">
+                <li class="advantages-items">
+                    <h3 class="advantages-title">Быстро</h3>
+                    <p class="advantages-description">Мы делаем свою работу быстро! 
+                        Два часа пролетят незаметно, и вы — счастливый обладатель стильной стрижки-минутки!</p>
+                </li>
+                <li class="advantages-items">
+                    <h3 class="advantages-title">Круто</h3>
+                    <p class="advantages-description">Забудьте, как вы стриглись раньше. 
+                        Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+                </li>
+                <li class="advantages-items">
+                    <h3 class="advantages-title">Дорого</h3>
+                    <p class="advantages-description">Наши мастера — профессионалы своего дела и не могут стоить дешево. 
+                        К тому же, разве цена не дает определенный статус?</p>
+                </li>
+            </ul>
+        </section>
+        <section class="services">
+            <h2 class="services-title">Популярные услуги</h2>
+            <ul class="services-list">
+                <li class="services-item">
+                    <span class="services-name">Стрижка машинкой</span>
+                    <b class="services-price">800  ₽</b>
+                    <span class="services-name">Стрижка усов</span>
+                    <b class="services-price">1200  ₽</b>
+                    <span class="services-name">Груминг</span>
+                    <b class="services-price">400  ₽</b>
+                    <span class="services-name">Комплексная стрижка</span>
+                    <b class="services-price">2300  ₽</b>
+                </li>
+            </ul>
+            <a class="button button-all" href="#">Посмотреть всё</a>
+        </section>
+        <section class="gallery">
+            <h2 class="gallery-title">Фотогалерея</h2>
+            <img class="slider-image" src="#" alt="Примеры работ">
+            <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+            </button>
+        </section>
+    </main>
 </body>
 </html>
