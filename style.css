@@ -1,4 +1,68 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/PTSans-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/PTSans-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/PTSans-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/PTSans-BoldItalic.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+font-family: "PT Sans Narrow";
+font-style: normal;
+font-weight: 700;
+src: url("/fonts/PTSansNarrow-Bold.woff2") format("woff2");
+font-display: swap;
+}
+body {
+  font-family: "PT Sans" sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+.page-header {
+  color: #ffffff;
+  background-color: #000;
+}
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  background-color: #000;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+.main-index {
+  background-image: url(/img/Интерьер.png);
+}
+
+
 .visually-hidden {
     position: fixed;
     transform: scale(0);
   }
+  
