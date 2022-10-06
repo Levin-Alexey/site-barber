@@ -28,13 +28,15 @@
   src: url("/fonts/PTSans-BoldItalic.woff2") format("woff2");
   font-display: swap;
 }
+
 @font-face {
-font-family: "PT Sans Narrow";
-font-style: normal;
-font-weight: 700;
-src: url("/fonts/PTSansNarrow-Bold.woff2") format("woff2");
-font-display: swap;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/PTSansNarrow-Bold.woff2") format("woff2");
+  font-display: swap;
 }
+
 body {
   font-family: "PT Sans" sans-serif;
   font-size: 16px;
@@ -42,10 +44,17 @@ body {
   color: #242424;
   background-color: #fbf7f4;
 }
+
+ul {
+  list-style: none;
+}
+
 .page-header {
   color: #ffffff;
   background-color: #000;
+
 }
+
 .navigation-link {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 22px;
@@ -54,15 +63,27 @@ body {
   text-align: center;
   background-color: #000;
   text-decoration: none;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
+
 .main-index {
+  color: #ffffff;
+  background-color: #000;
   background-image: url(/img/Интерьер.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-
-.visually-hidden {
-    position: fixed;
-    transform: scale(0);
-  }
-  
+.advantages-list {
+  text-align: center;
+}
+.advantages-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+/* .visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}*/
